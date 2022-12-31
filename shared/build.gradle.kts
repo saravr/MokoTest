@@ -82,4 +82,5 @@ android {
         minSdk = 23
         targetSdk = 32
     }
+    sourceSets.getByName("main").res.srcDir(File(buildDir, "generated/moko/androidMain/res"))
 }
